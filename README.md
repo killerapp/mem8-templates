@@ -8,6 +8,7 @@ mem8 enhances Claude Code with persistent memory and structured workflows:
 
 - **8 workflow commands** for planning, research, implementation, and validation
 - **6 specialized agents** for codebase analysis and research
+- **1 skill** for Obsidian vault management and OFM syntax
 - **Persistent memory** across sessions via the `memory/` directory
 - **Team distribution** through `.claude/settings.json`
 
@@ -93,6 +94,17 @@ agents/
 ├── memory-analyzer.md         # Deep memory analysis
 ├── memory-locator.md          # Find relevant memory
 └── web-search-researcher.md   # Web research
+```
+
+### Skills (1 total)
+
+```
+skills/
+└── obsidian-skill/           # Obsidian vault management
+    ├── SKILL.md              # OFM syntax and best practices
+    ├── references/           # Comprehensive guides
+    ├── scripts/              # Vault health utilities
+    └── assets/templates/     # Note templates
 ```
 
 ### Memory Directory Structure
